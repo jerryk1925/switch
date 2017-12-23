@@ -1,14 +1,14 @@
-.header{
+.header {
     margin: 0 30px;
     display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content:space-between;
-        align-content:center ;
-        align-items: center;
-        width: 100%;
-        min-height: 38px;
-    &__wrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 38px;
+    &__wrapper {
         background: rgba(25, 25, 25, 0.2);
         position: fixed;
         display: flex;
@@ -20,19 +20,18 @@
         width: 100%;
         min-height: 38px;
     }
-    &__menu{
+    &__menu {
         overflow-x: auto;
         overflow-y: hidden;
         width: 31.5%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content:space-between;
-        align-content:center ;
+        justify-content: space-between;
+        align-content: center;
         align-items: center;
-
-        &_item{
-            &-link{
+        &_item {
+            &-link {
                 line-height: 38px;
                 text-decoration: none;
                 font-size: 16px;
@@ -40,34 +39,33 @@
                 font-family: "Montserrat";
             }
         }
-        &_item:hover{
+        &_item:hover {
             font-weight: bold;
             color: white;
             border-bottom: 5px solid rgb(84, 209, 84);
         }
-
     }
-    &__logo{
-        
+    &__logo {
         font-size: 24px;
         font-family: 'Kaushan Script', cursive;
-            color: rgb(255, 255, 255);
-            line-height: 1.2;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
     }
-    &__form{
+    &__form {
         width: 16%;
         min-height: 28px;
-        &_seacrh{
+        &_seacrh {
             background: rgba(255, 255, 255, 0.6);
             width: 100%;
             border-radius: 14px;
-            border:none;
+            border: none;
             padding-left: 10px;
             min-height: 28px;
-        }      
+        }
     }
 }
-.banner{
+
+.banner {
     margin: 0 30px;
     display: flex;
     display: flex;
@@ -76,9 +74,9 @@
     justify-content: flex-end;
     align-content: center;
     align-items: center;
-        width: 100%;
-        min-height: 659px;
-    &__wrapper{
+    width: 100%;
+    min-height: 659px;
+    &__wrapper {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -91,17 +89,17 @@
         background-position: center;
         background-size: cover;
     }
-    &__caption{
+    &__caption {
         text-align: center;
         font-size: 76px;
-            font-family: "Montserrat";
-            color: rgb(255, 255, 255);
-            font-weight: bold;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
     }
-    &__form{
+    &__form {
         margin-top: 30px;
         min-width: 19%;
-        &_button{
+        &_button {
             cursor: pointer;
             border-radius: 14px;
             min-height: 45px;
@@ -113,37 +111,37 @@
             font-family: "Montserrat";
         }
     }
-    &__formscroll{
-       margin-top:210px;
-       margin-bottom: 12px; 
+    &__formscroll {
+        margin-top: 210px;
+        margin-bottom: 12px;
         min-width: 120px;
-        &_button{
+        &_button {
             display: block;
             cursor: pointer;
             border-radius: 14px;
             min-height: 25px;
             min-width: 100%;
             border: none;
-            background:rgba(255, 255, 255, 0.6);
+            background: rgba(255, 255, 255, 0.6);
             font-size: 16px;
             font-family: "Montserrat";
-           
             width: 7px;
             height: 10px;
         }
     }
 }
-.whatwedo{
+
+.whatwedo {
     margin: 0 30px;
     display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-content: center;
-        align-items: center;
-        width: 100%;
-        min-height: 580px;
-    &__wrapper{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 580px;
+    &__wrapper {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -153,14 +151,14 @@
         width: 100%;
         min-height: 580px;
     }
-    &__text{
+    &__text {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
         align-items: center;
-        &_caption{
+        &_caption {
             font-size: 16px;
             font-family: "Montserrat";
             color: rgb(130, 129, 129);
@@ -168,19 +166,18 @@
             text-align: center;
             letter-spacing: 0.3em;
         }
-        &_line{
+        &_line {
             margin: 15px;
             width: 44px;
             border: 2px solid rgb(130, 129, 129);
         }
-        &_pr{
-
+        &_pr {
             font-size: 16px;
             font-family: 'Open Sans', sans-serif;
-                color: rgb(183, 179, 179);
+            color: rgb(183, 179, 179);
         }
     }
-    &__list{
+    &__list {
         width: 100%;
         min-height: 330px;
         display: flex;
@@ -189,8 +186,7 @@
         justify-content: center;
         align-content: center;
         align-items: center;
-        
-        &_item{
+        &_item {
             min-height: 330px;
             width: 33%;
             display: flex;
@@ -199,7 +195,7 @@
             justify-content: center;
             align-content: center;
             align-items: center;
-            &-name{
+            &-name {
                 margin: 30px 0;
                 text-align: center;
                 font-size: 24px;
@@ -207,18 +203,18 @@
                 color: rgb(130, 129, 129);
                 font-weight: bold;
             }
-            &-about{
+            &-about {
                 width: 60%;
                 text-align: center;
                 font-size: 15px;
                 font-family: "Montserrat";
                 color: rgb(130, 129, 129);
             }
-            &-form{
-                margin-top:30px; 
+            &-form {
+                margin-top: 30px;
                 text-align: center;
                 width: 30%;
-                &-button{
+                &-button {
                     cursor: pointer;
                     min-width: 100%;
                     background: rgb(84, 209, 84);
@@ -227,21 +223,21 @@
                     border-radius: 14px;
                     font-family: "Montserrat";
                     font-size: 16px;
-                     color: rgb(255, 255, 255);
-                     font-weight: bold;
+                    color: rgb(255, 255, 255);
+                    font-weight: bold;
                 }
             }
-            &-photo:nth-child(1){
+            &-photo:nth-child(1) {
                 background: url('photo.png') no-repeat;
                 width: 142px;
                 height: 142px;
             }
-            &-photo:nth-child(2){
+            &-photo:nth-child(2) {
                 background: url('car.png') no-repeat;
                 width: 142px;
                 height: 142px;
             }
-            &-photo:nth-child(3){
+            &-photo:nth-child(3) {
                 background: url('portfel.png') no-repeat;
                 width: 142px;
                 height: 142px;
@@ -249,18 +245,19 @@
         }
     }
 }
-.work{
+
+.work {
     margin: 0 30px;
     display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-content: center;
-        align-items: center;
-        width: 100%;
-        min-height: 580px;
-    &__wrapper{
-       background: rgb(84, 209, 84);
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 580px;
+    &__wrapper {
+        background: rgb(84, 209, 84);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -270,14 +267,14 @@
         width: 100%;
         min-height: 580px;
     }
-    &__text{
+    &__text {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
         align-items: center;
-        &_caption{
+        &_caption {
             font-size: 16px;
             font-family: "Montserrat";
             color: rgb(130, 129, 129);
@@ -286,22 +283,19 @@
             letter-spacing: 0.3em;
             color: rgb(32, 123, 32);
         }
-        &_line{
+        &_line {
             margin: 15px;
             width: 44px;
-            
-            border: 2px solid  rgb(32, 123, 32);
+            border: 2px solid rgb(32, 123, 32);
         }
-        &_pr{
+        &_pr {
             text-align: center;
             font-size: 16px;
             font-family: 'Open Sans', sans-serif;
             color: rgb(43, 155, 43);
-                
         }
     }
-    &__menu{
-
+    &__menu {
         min-height: 33px;
         min-width: 276px;
         display: flex;
@@ -312,41 +306,50 @@
         align-items: center;
         background: white;
         border-radius: 14px;
-        &_item{
+        &_item {
             text-align: center;
             line-height: 33px;
-            
-            &-link{
+            &-link {
                 text-align: center;
                 text-decoration: none;
                 font-size: 16px;
                 font-family: "Montserrat";
-                color: rgb(43, 155, 43);  
+                color: rgb(43, 155, 43);
             }
         }
-        &_item:nth-child(1){
+        &_item:nth-child(1) {
             border-top-left-radius: 14px;
             border-bottom-left-radius: 14px;
             min-width: 120px;
             border: 1px solid rgb(43, 155, 43);
         }
-        &_item:nth-child(3){
+        &_item:nth-child(3) {
             min-width: 66px;
             border-left: 1px solid rgb(43, 155, 43);
             border: 1px solid rgb(43, 155, 43);
             border-top-right-radius: 14px;
             border-bottom-right-radius: 14px;
-        }  
-        &_item:nth-child(2){
-            min-width:90px;
+        }
+        &_item:nth-child(2) {
+            min-width: 90px;
             border: 1px solid rgb(43, 155, 43);
-            
-        } 
-        &_item:hover{
+        }
+        &_item:hover {
             background: rgb(43, 155, 43);
         }
-        &_item:hover &_item-link{
+        &_item:hover &_item-link {
             color: white;
         }
     }
+    &__gallery {
+        height: 350px;
+        width: 83%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+    
 }
