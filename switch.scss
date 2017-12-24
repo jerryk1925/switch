@@ -43,6 +43,11 @@
             font-weight: bold;
             color: white;
             border-bottom: 5px solid rgb(84, 209, 84);
+            text-decoration: none;
+        }
+        &_item:hover &_item-link{
+            text-decoration: none;
+            color: white;
         }
     }
     &__logo {
@@ -159,6 +164,7 @@
         align-content: center;
         align-items: center;
         &_caption {
+            font-weight: bold;
             font-size: 16px;
             font-family: "Montserrat";
             color: rgb(130, 129, 129);
@@ -255,7 +261,7 @@
     align-content: center;
     align-items: center;
     width: 100%;
-    min-height: 580px;
+    min-height: 750px;
     &__wrapper {
         background: rgb(84, 209, 84);
         display: flex;
@@ -265,7 +271,7 @@
         align-content: center;
         align-items: center;
         width: 100%;
-        min-height: 580px;
+        min-height: 750px;
     }
     &__text {
         display: flex;
@@ -275,6 +281,7 @@
         align-content: center;
         align-items: center;
         &_caption {
+            font-weight: bold;
             font-size: 16px;
             font-family: "Montserrat";
             color: rgb(130, 129, 129);
@@ -315,6 +322,7 @@
                 font-size: 16px;
                 font-family: "Montserrat";
                 color: rgb(43, 155, 43);
+                font-weight: bold;
             }
         }
         &_item:nth-child(1) {
@@ -339,6 +347,7 @@
         }
         &_item:hover &_item-link {
             color: white;
+            text-decoration: none;
         }
     }
     &__gallery {
@@ -351,5 +360,201 @@
         align-content: center;
         align-items: center;
     }
+    &__form{
+        &_button{
+            color: white;
+            background: rgb(43, 155, 43);
+            font-size: 18px;
+            font-family: "Montserrat";
+            color: rgb(255, 255, 255);
+            height: 40px;
+            min-width: 190px;
+            border: none;
+            border-radius: 18px;
+            cursor: pointer;
+        }
+    }    
+}
+.testimonials{
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 380px;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 380px;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        &_caption {
+            font-size: 16px;
+            font-family: "Montserrat";
+            color: rgb(130, 129, 129);
+            line-height: 1.2;
+            text-align: center;
+            letter-spacing: 0.3em;
+            font-weight: bold;
+        }
+        &_line {
+            margin: 15px;
+            width: 44px;
+            border: 2px solid rgb(130, 129, 129);
+        }
+        &_pr {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            color: rgb(183, 179, 179);
+        }
+    }
+    &__slider{
+        min-height: 150px;
+        width: 80%;
+      
+    }
+    &__slider .carousel {
+        min-height: 150px;
+    }
+    &__slider .carousel-inner {
+        min-height: 150px;
+        
+    }
+    &__slider .carousel-item {
+        min-height: 150px;
+       
+    }
+    &__slider .carousel-caption{
+        font-size: 16px;
+        font-family: "Montserrat";
+        color: rgb(68, 68, 68);
+        font-weight: bold;
+        width: 60%;
+        min-height: 100px;
+        left: 20%;
+        right: 20%;
+    }
+    &__who{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        &_about{
+            padding-left: 10px;
+            &-name{
+                font-size: 16px;
+                font-family: "Montserrat";
+                color: rgb(68, 68, 68);
+                font-weight: bold;
+                width: 60%;
+            }
+            &-prof{
+                font-size: 16px;
+                font-family: "Montserrat";
+                color: rgb(204, 204, 204);
+                font-weight: bold;
+            }
+        }
+    }
+}
+.client{
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+    &__wrapper {
+        background: rgb(242, 241, 241);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 500px;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        &_caption {
+            font-size: 16px;
+            font-family: "Montserrat";
+            color: rgb(130, 129, 129);
+            line-height: 1.2;
+            text-align: center;
+            letter-spacing: 0.3em;
+            font-weight: bold;
+        }
+        &_line {
+            margin: 15px;
+            width: 44px;
+            border: 2px solid rgb(130, 129, 129);
+        }
+        &_pr {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            color: rgb(183, 179, 179);
+        }
+    }
+    &__list{
+        min-height: 170px;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: center;
+        &_item{
+            min-height: 85px;
+            width: 200px;
+            display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        }
+    }
+    &__form{
+        &_button{
+            color: white;
+            background: rgb(221, 220, 220);
+            font-size: 18px;
+            font-family: "Montserrat";
+            color: rgb(165, 157, 157);
+            height: 40px;
+            min-width: 190px;
+            border: none;
+            border-radius: 18px;
+            cursor: pointer;
+            
+        }
+    } 
     
 }
