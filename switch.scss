@@ -20,6 +20,12 @@
         width: 100%;
         min-height: 38px;
     }
+    &__submenu{
+        display:  none;
+        @media only screen and (max-width: 479px) {
+            display: block;
+        }
+    }
     &__menu {
         overflow-x: auto;
         overflow-y: hidden;
@@ -30,6 +36,9 @@
         justify-content: space-between;
         align-content: center;
         align-items: center;
+        @media only screen and (max-width: 479px) {
+            display: none;
+        }
         &_item {
             &-link {
                 line-height: 38px;
@@ -100,6 +109,9 @@
         font-family: "Montserrat";
         color: rgb(255, 255, 255);
         font-weight: bold;
+        @media only screen and (max-width: 479px) {
+            font-size: 52px;
+        }
     }
     &__form {
         margin-top: 30px;
@@ -146,6 +158,9 @@
     align-items: center;
     width: 100%;
     min-height: 580px;
+    @media only screen and (max-width: 479px) {
+        min-height: 1550px;
+    }
     &__wrapper {
         display: flex;
         flex-direction: row;
@@ -155,6 +170,9 @@
         align-items: center;
         width: 100%;
         min-height: 580px;
+        @media only screen and (max-width: 479px) {
+            min-height: 1550px;
+        }
     }
     &__text {
         display: flex;
@@ -181,6 +199,9 @@
             font-size: 16px;
             font-family: 'Open Sans', sans-serif;
             color: rgb(183, 179, 179);
+            @media only screen and (max-width: 479px) {
+                text-align: center;
+            }
         }
     }
     &__list {
@@ -192,6 +213,11 @@
         justify-content: center;
         align-content: center;
         align-items: center;
+        @media only screen and (max-width: 479px) {
+            min-height: 1300px;
+            justify-content: space-between;
+            align-content: space-between;
+        }
         &_item {
             min-height: 330px;
             width: 33%;
@@ -201,6 +227,9 @@
             justify-content: center;
             align-content: center;
             align-items: center;
+            @media only screen and (max-width: 479px) {
+                width: 100%;
+            }
             &-name {
                 margin: 30px 0;
                 text-align: center;
@@ -215,6 +244,9 @@
                 font-size: 15px;
                 font-family: "Montserrat";
                 color: rgb(130, 129, 129);
+                @media only screen and (max-width: 479px) {
+                    width: 100%;
+                }
             }
             &-form {
                 margin-top: 30px;
@@ -262,6 +294,10 @@
     align-items: center;
     width: 100%;
     min-height: 750px;
+    @media only screen and (max-width: 479px) {
+        margin: 0;
+        min-height: 1200px;
+    }
     &__wrapper {
         background: rgb(84, 209, 84);
         display: flex;
@@ -272,6 +308,9 @@
         align-items: center;
         width: 100%;
         min-height: 750px;
+        @media only screen and (max-width: 479px) {
+            min-height: 1200px;
+        }
     }
     &__text {
         display: flex;
@@ -280,6 +319,9 @@
         justify-content: center;
         align-content: center;
         align-items: center;
+        @media only screen and (max-width: 479px) {
+            margin: 0 30px;
+        }
         &_caption {
             font-weight: bold;
             font-size: 16px;
@@ -352,13 +394,26 @@
     }
     &__gallery {
         height: 350px;
-        width: 75%;
+        width: 900px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: space-between;
         align-items: flex-start;
+        @media only screen and (max-width: 479px) {
+            margin: 0;
+            width: 100%;
+            justify-content:center;
+            align-content: center;
+            align-items: center;
+            min-height: 800px;
+        }
+        &_item{
+            @media only screen and (max-width: 479px) {
+                width: 100%;
+            }
+        }
     }
     &__form{
         &_button{
@@ -421,11 +476,18 @@
             font-size: 16px;
             font-family: 'Open Sans', sans-serif;
             color: rgb(183, 179, 179);
+            @media only screen and (max-width: 479px) {
+                text-align: center;
+            }
         }
     }
     &__slider{
         min-height: 150px;
         width: 80%;
+        @media only screen and (max-width: 479px) {
+            width: 90%;
+            display: none;
+        }
       
     }
     &__slider .carousel {
@@ -437,6 +499,7 @@
     }
     &__slider .carousel-item {
         min-height: 150px;
+        
        
     }
     &__slider .carousel-caption{
@@ -448,6 +511,9 @@
         min-height: 100px;
         left: 20%;
         right: 20%;
+        @media only screen and (max-width: 479px) {
+            width: 250px;
+        }
     }
     &__who{
         display: flex;
@@ -485,6 +551,9 @@
     align-items: center;
     width: 100%;
     min-height: 500px;
+    @media only screen and (max-width: 479px) {
+        min-height: 600px;
+    }
     &__wrapper {
         background: rgb(242, 241, 241);
         display: flex;
@@ -495,6 +564,9 @@
         align-items: center;
         width: 100%;
         min-height: 500px;
+        @media only screen and (max-width: 479px) {
+            min-height: 600px;
+        }
     }
     &__text {
         display: flex;
@@ -521,17 +593,23 @@
             font-size: 16px;
             font-family: 'Open Sans', sans-serif;
             color: rgb(183, 179, 179);
+            @media only screen and (max-width: 479px) {
+                text-align: center;
+            }
         }
     }
     &__list{
         min-height: 170px;
-        width: 80%;
+        width: 900px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: space-between;
         align-items: center;
+        @media only screen and (max-width: 479px) {
+            width: 100%;
+        }
         &_item{
             min-height: 85px;
             width: 200px;
@@ -541,6 +619,9 @@
         justify-content: center;
         align-content: center;
         align-items: center;
+        @media only screen and (max-width: 479px) {
+            width: 40%;
+        }
         }
     }
     &__form{
@@ -571,6 +652,10 @@
     align-items: center;
     width: 100%;
     min-height: 482px;
+    @media only screen and (max-width: 479px) {
+        margin: 0 ;
+        min-height: 1050px;
+    }
     &__wrapper {
         background: rgb(84, 209, 84);
         display: flex;
@@ -581,6 +666,9 @@
         align-items: center;
         width: 100%;
         min-height: 482px;
+        @media only screen and (max-width: 479px) {
+            min-height: 1050px;
+        }
     }
     &__text {
         display: flex;
@@ -609,6 +697,9 @@
             font-size: 16px;
             font-family: 'Open Sans', sans-serif;
             color: rgb(43, 155, 43);
+            @media only screen and (max-width: 479px) {
+                margin: 0 30px;
+            }
         }
     }
     &__list{
@@ -620,6 +711,10 @@
         align-items: center; 
         min-height: 277px;
         width: 72%;
+        @media only screen and (max-width: 479px) {
+            width: 100%;
+            justify-content: center;
+        }
         &_item{
             display: flex;
         flex-direction: column;
@@ -629,6 +724,9 @@
         align-items: center; 
             width: 15%;
             min-height: 277px;
+            @media only screen and (max-width: 479px) {
+                width: 40%;
+            }
             &_line{
                 margin: 10px 0;
                 min-height: 78px;
@@ -724,6 +822,10 @@
         justify-content: flex-start;
         align-content: center;
         align-items: center;
+        @media only screen and (max-width: 479px) {
+            width: 100%;
+            min-height: 380px;
+        }
         &_caption{
             font-size: 18px;
                 font-family: "Montserrat";
@@ -766,6 +868,10 @@
         justify-content: flex-start;
         align-content: center;
         align-items: center;
+        @media only screen and (max-width: 479px) {
+            width: 100%;
+            min-height: 400px;
+        }
         &_caption{
             font-size: 18px;
                 font-family: "Montserrat";
@@ -871,6 +977,9 @@
         justify-content: flex-start;
         align-content: center;
         align-items: center;
+        @media only screen and (max-width: 479px) {
+            width: 100%;
+        }
         &_caption{
             font-size: 18px;
                 font-family: "Montserrat";

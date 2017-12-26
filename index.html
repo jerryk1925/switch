@@ -453,7 +453,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="switch.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Switch</title>
 
@@ -462,6 +462,21 @@
 <body>
     <div class="header__wrapper">
         <div class="header">
+                <div class="header__submenu pos-f-t">
+                        <div class="collapse" id="navbarToggleExternalContent">
+                          <div class=" p-4">
+                                <div class="header__menu_item"><a href="#" class="header__menu_item-link">Home</a></div>
+                                <div class="header__menu_item"><a href="#" class="header__menu_item-link">What we do?</a></div>
+                                <div class="header__menu_item"><a href="#" class="header__menu_item-link">Testimonial</a></div>
+                                <div class="header__menu_item"><a href="#" class="header__menu_item-link">Contact US</a></div>
+                          </div>
+                        </div>
+                        <nav class="navbar navbar-dark ">
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                        </nav>
+                      </div>           
             <div class="header__menu">
                 <div class="header__menu_item"><a href="#" class="header__menu_item-link">Home</a></div>
                 <div class="header__menu_item"><a href="#" class="header__menu_item-link">What we do?</a></div>
@@ -533,16 +548,16 @@
                 <div class="work__menu_item"><a href="#" class="work__menu_item-link">Print</a></div>
             </div>
             <div class="work__gallery">
-                <a href="work/bigtree.jpg" title="The Tree"  ><img src="work/tree.jpg" width="160" height="160"></a>
-                <a href="work/bigcomputer.jpg" title="Computer"><img src="work/computer.jpg" width="160" height="160"></a>
-                <a href="work/bigdesert.jpg" title="The Desert"><img src="work/desert.jpg" width="160" height="160"></a>
-                <a href="work/bigcat.jpg" title="Cat"><img src="work/cat.jpg" width="160" height="160"></a>
-                <a href="work/bigdevice.jpg" title="Book and Phone"><img src="work/device.jpg" width="160" height="160"></a>
-                <a href="banner.png" title="The Beer"><img src="work/beer.jpg" width="160" height="160"></a>
-                <a href="work/bigcooking.jpg" title="Who's that, mommy?"><img src="work/cooking.jpg" width="160" height="160"></a>
-                <a href="work/bignail.jpg" title="Nail"><img src="work/nail.jpg" width="160" height="160"></a>
-                <a href="work/bigladybug.jpg" title="Who's that, mommy?"><img src="work/ladybug.jpg" width="160" height="160"></a>
-                <a href="work/biggreenery.jpg" title="Who's that, mommy?"><img src="work/greenery.jpg" width="160" height="160"></a>
+                <a href="work/bigtree.jpg" title="The Tree"  ><img src="work/tree.jpg" width="160" height="160" class="work__gallery_item"></a>
+                <a href="work/bigcomputer.jpg" title="Computer" ><img src="work/computer.jpg" width="160" height="160" class="work__gallery_item"></a>
+                <a href="work/bigdesert.jpg" title="The Desert" ><img src="work/desert.jpg" width="160" height="160" class="work__gallery_item"></a>
+                <a href="work/bigcat.jpg" title="Cat" ><img src="work/cat.jpg" width="160" height="160" class="work__gallery_item"></a>
+                <a href="work/bigdevice.jpg" title="Book and Phone" ><img src="work/device.jpg" width="160" height="160" class="work__gallery_item"></a>
+                <a href="banner.png" title="The Beer" ><img src="work/beer.jpg" width="160" height="160" class="work__gallery_item"></a>
+                <a href="work/bigcooking.jpg" title="Who's that, mommy?" ><img src="work/cooking.jpg" width="160" height="160" class="work__gallery_item"></a>
+                <a href="work/bignail.jpg" title="Nail" ><img src="work/nail.jpg" width="160" height="160" class="work__gallery_item"></a>
+                <a href="work/bigladybug.jpg" title="Who's that, mommy?" ><img src="work/ladybug.jpg" width="160" height="160" class="work__gallery_item"></a>
+                <a href="work/biggreenery.jpg" title="Who's that, mommy?" ><img src="work/greenery.jpg" width="160" height="160" class="work__gallery_item"></a>
             </div>
             <div class="work__form">
                 <input type="button" value="View more work" class="work__form_button">
